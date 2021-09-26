@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	DefaultDocMaxRoom = 2 * 1048576 // DefaultDocMaxRoom is the default maximum size a single document may never exceed.
+	DefaultDocMaxRoom = 8 * 1048576 // DefaultDocMaxRoom is the default maximum size a single document may never exceed.
 	DocHeader         = 1 + 10      // DocHeader is the size of document header fields.
 	EntrySize         = 1 + 10 + 10 // EntrySize is the size of a single hash table entry.
 	BucketHeader      = 10          // BucketHeader is the size of hash table bucket's header fields.
